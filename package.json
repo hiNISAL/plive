@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "npm run vite-build",
+    "build": "npm run vite-build && npm run swc-build",
     "vite-build": "vite build",
     "swc-build": "swc ./dist/plive.js -o ./dist/plive.js",
     "ts-node-dev": "ts-node ./src/index.ts",
