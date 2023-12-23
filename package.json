@@ -1,0 +1,17 @@
+{
+  "name": "plive",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --exec bun src/index.ts",
+    "start": "bun run dev",
+    "serve": "bun run ./src/index.ts"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "nodemon": "^3.0.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
