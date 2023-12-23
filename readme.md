@@ -2,6 +2,11 @@
 
 simple project template.
 
+## branch
+
+- node
+- browser
+
 ## PROJECT NAME
 
 alive project.
